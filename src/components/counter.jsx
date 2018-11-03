@@ -6,13 +6,22 @@ class Counter extends Component {
     tags: ["tag1", "tag2", "tag3"]
   };
 
+  handleIncerement() {
+    console.log("Incremetn Click");
+  }
+
   render() {
     let classes = this.getBadgeClasses();
 
     return (
       <div>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
-        <button className="btn btn-secondary btn-sm">Increment</button>
+        <button
+          onClick={this.handleIncerement}
+          className="btn btn-secondary btn-sm"
+        >
+          Increment
+        </button>
         <ul>
           {this.state.tags.map(tag => (
             <li key={tag}>{tag}</li>
