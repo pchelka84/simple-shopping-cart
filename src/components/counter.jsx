@@ -10,8 +10,6 @@ class Counter extends Component {
   };
 
   render() {
-    console.log(this.props);
-
     return (
       <div>
         {this.props.children}
@@ -22,6 +20,7 @@ class Counter extends Component {
         >
           Increment
         </button>
+        <button className="btn btn-danger btn-sml m-2">Delete</button>
       </div>
     );
   }
