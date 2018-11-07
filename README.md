@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This simple project mimics items in a shopping cart. The app allows you to increment and decrement number of a specific item and delete an item from the cart.
+This simple project mimics items in a shopping cart. The app allows you to increment and decrement number of a specific item and delete an item from the cart. Reset button resets the quantity of all items to zero. The top menu bar displays number of items with value greater than zero.
 
-This project was created to improve understanding and skills working with React.
+This project was created to mastering React knowledge and skills.
 
 ## How to run
 
@@ -19,4 +19,4 @@ This project was created to improve understanding and skills working with React.
 
 ## Credits
 
-- Tutorial [great YouTube tutorial](https://www.youtube.com/playlist?list=PL4rQq4MQP1crXuPtruu_eijgOUUXhcUCP)
+- Tutorial [Master React Online Course](https://codewithmosh.com/p/mastering-react)
